@@ -1,6 +1,6 @@
-# Food Analysis MLOps Project
+# Mediacal_Insurance_cost_Predication MLOps Project
 
-This project implements a Machine Learning Operations (MLOps) pipeline for analyzing food based on nutritional data and user queries.
+This project implements a Machine Learning Operations (MLOps) pipeline for analyzing medical insurance cost based on insurance data.
 
 ## Directory Structure
 
