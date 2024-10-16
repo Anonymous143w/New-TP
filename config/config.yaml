@@ -1,0 +1,15 @@
+data:
+  raw_data_path: "data/raw/insurance.csv"
+  processed_data_path: "data/processed/insurance_processed.csv"
+  test_size: 0.2
+  random_state: 42
+
+model:
+  type: "polynomial"
+  degree: 2
+  output_path: "models/medical_cost_model.pkl"
+
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db"
+  experiment_name: "medical_cost_prediction"
+
