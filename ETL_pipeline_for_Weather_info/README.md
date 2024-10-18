@@ -16,6 +16,7 @@ Your Astro project contains the following files and folders:
 - requirements.txt: Install Python packages needed for your project by adding them to this file. It is empty by default.
 - plugins: Add custom or community plugins for your project to this file. It is empty by default.
 - airflow_settings.yaml: Use this local-only file to specify Airflow Connections, Variables, and Pools instead of entering them in the Airflow UI as you develop DAGs in this project.
+- myenv: Is basically vetual environment set up '''python -m venv myenv'''  
 
 Deploy Your Project Locally
 ===========================
@@ -35,14 +36,4 @@ Note: Running 'astro dev start' will start your project with the Airflow Webserv
 
 3. Access the Airflow UI for your local Airflow project. To do so, go to http://localhost:8080/ and log in with 'admin' for both your Username and Password.
 
-You should also be able to access your Postgres Database at 'localhost:5432/postgres'.
-
-Deploy Your Project to Astronomer
-=================================
-
-If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://www.astronomer.io/docs/astro/deploy-code/
-
-Contact
-=======
-
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
+You should also be able to access your Postgres Database at 'localhost:5432/postgres'. If you want to check how it's working in PostgresSQL you can use DBeaver for that or use cloud services like AWS, Azure or GCP.
